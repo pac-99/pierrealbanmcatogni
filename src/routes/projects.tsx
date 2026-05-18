@@ -82,10 +82,11 @@ function Projects() {
       </Reveal>
 
       <div className="border-t border-border/70">
-        {projects.map((p) => (
+        {projects.map((p, idx) => (
           <Reveal
             as="article"
             key={p.index}
+            delay={idx * 140}
             className="group grid grid-cols-12 gap-6 py-14 border-b border-border/70"
           >
             <div className="col-span-12 md:col-span-2">
