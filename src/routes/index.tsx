@@ -136,7 +136,7 @@ function CV() {
     <div className="mx-auto max-w-6xl px-6">
       {/* Hero */}
       <section className="pt-24 pb-20 md:pt-36 md:pb-28 grid grid-cols-12 gap-8 items-end">
-        <div className="col-span-12 md:col-span-8">
+        <Reveal className="col-span-12 md:col-span-8">
           <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground mb-6">Curriculum Vitae</p>
           <h1 className="display text-[14vw] md:text-[88px] leading-[0.95]">
             Pierre-Alban<br />
@@ -148,12 +148,12 @@ function CV() {
             <a href="tel:+13852195806" className="hover:text-foreground transition-colors">+1 385 219 5806</a>
             <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-foreground transition-colors">linkedin.com/in/pierre-alban-catogni</a>
           </div>
-        </div>
-        <div className="col-span-12 md:col-span-4">
+        </Reveal>
+        <Reveal delay={450} className="col-span-12 md:col-span-4">
           <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
             <img src={portrait} alt="Portrait of Pierre-Alban M. Catogni" className="w-full h-full object-cover" />
           </div>
-        </div>
+        </Reveal>
       </section>
 
       <Section title="Experience">
