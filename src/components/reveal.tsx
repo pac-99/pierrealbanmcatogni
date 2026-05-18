@@ -39,8 +39,8 @@ export function Reveal({ children, className = "", delay = 0, as = "div" }: Prop
       ref={ref as any}
       style={{ transitionDelay: `${delay}ms` }}
       className={[
-        "transition-all duration-[900ms] ease-out will-change-transform",
-        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
+        "transition-all duration-[1600ms] ease-out will-change-transform",
+        visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8",
         className,
       ].join(" ")}
     >
