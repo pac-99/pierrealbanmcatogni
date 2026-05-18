@@ -71,10 +71,9 @@ const experience: Role[] = [
     title: "Enrollment Coordinator",
     period: "May 2023 — Dec. 2023",
     bullets: [
-      "Led a 15-person team, establishing performance standards and collaborative processes for high-volume operations (500+ records).",
-      "Redesigned international student onboarding workflows, reducing processing time by 20% and building operational efficiency in international workflows.",
-      "Built analytics dashboards to monitor KPIs, identify bottlenecks, and optimize operational throughput.",
-      "Coordinated cross-functionally with academic, international services, and external partners to resolve complex cases.",
+      "Led a 15-person team supporting high-volume international enrollment operations, reinforcing performance standards and collaborative workflows to improve service quality and execution consistency.",
+      "Redesigned international student onboarding and case-management processes, reducing processing time by 20% and improving operational efficiency across workflows.",
+      "Managed complex stakeholder relationships across students, academic departments, international services, and external partners to resolve time-sensitive operational cases.",
     ],
   },
   {
