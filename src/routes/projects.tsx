@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Reveal } from "@/components/reveal";
 
 export const Route = createFileRoute("/projects")({
   component: Projects,
