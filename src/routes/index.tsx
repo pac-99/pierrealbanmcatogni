@@ -141,7 +141,7 @@ function CV() {
             Pierre-Alban<br />
             <span className="text-muted-foreground">M. Catogni</span>
           </h1>
-          <div className="mt-10 flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted-foreground">
+          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-x-8 gap-y-2 text-sm text-muted-foreground">
             <span>Provo, UT</span>
             <a href="mailto:pierrealban99@gmail.com" className="underline underline-offset-4 hover:text-foreground transition-colors">pierrealban99@gmail.com</a>
             <a href="tel:+13852195806" className="hover:text-foreground transition-colors">+1 385 219 5806</a>
