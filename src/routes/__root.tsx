@@ -1,40 +1,71 @@
-import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+  Outlet,
+  Link,
+  createRootRouteWithContext,
+  HeadContent,
+  Scripts,
+} from "@tanstack/react-router";
 
-function Nav() {
-  const linkBase =
-    "text-[13px] tracking-tight text-foreground/70 hover:text-foreground transition-colors";
-  const active = "text-foreground";
-  return (
-    <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/70 border-b border-border/60">
-      <div className="mx-auto max-w-6xl px-6 h-12 flex items-center justify-between">
-        <Link to="/" className="text-[13px] font-medium tracking-tight">
-          Pierre-Alban M. Catogni
-        </Link>
-        <nav className="flex items-center gap-7">
-          <Link to="/" className={linkBase} activeOptions={{ exact: true }} activeProps={{ className: `${linkBase} ${active}` }}>
-            CV
-          </Link>
-          <Link to="/projects" className={linkBase} activeProps={{ className: `${linkBase} ${active}` }}>
-            Projects
-          </Link>
-        </nav>
-      </div>
-    </header>
-  );
-}
+import appCss from "../styles.css?url";
 
-export const Route = createRootRoute({
-  component: () => (
-    <>
-      <Nav />
-      <main className="pt-12">
-        <Outlet />
-      </main>
-    </>
-  ),
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Pierre-Alban M. Catogni" },
+      { name: "description", content: "CV and selected projects of Pierre-Alban M. Catogni." },
+    ],
+    links: [{ rel: "stylesheet", href: appCss }],
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
   notFoundComponent: () => (
     <div className="min-h-screen flex items-center justify-center">
       <Link to="/" className="text-sm underline">Go home</Link>
     </div>
   ),
 });
+
+function RootShell({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head><HeadContent /></head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+function Nav() {
+  const base = "text-[13px] tracking-tight text-foreground/60 hover:text-foreground transition-colors";
+  const active = "text-foreground";
+  return (
+    <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-xl bg-background/75 border-b border-border/60">
+      <div className="mx-auto max-w-6xl px-6 h-12 flex items-center justify-between">
+        <Link to="/" className="text-[13px] font-medium tracking-tight">
+          Pierre-Alban M. Catogni
+        </Link>
+        <nav className="flex items-center gap-7">
+          <Link to="/" className={base} activeOptions={{ exact: true }} activeProps={{ className: `${base} ${active}` }}>CV</Link>
+          <Link to="/projects" className={base} activeProps={{ className: `${base} ${active}` }}>Projects</Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+function RootComponent() {
+  const { queryClient } = Route.useRouteContext();
+  return (
+    <QueryClientProvider client={queryClient}>
+      <Nav />
+      <main className="pt-12">
+        <Outlet />
+      </main>
+    </QueryClientProvider>
+  );
+}
