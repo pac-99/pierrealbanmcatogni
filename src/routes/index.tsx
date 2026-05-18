@@ -149,7 +149,7 @@ function CV() {
             <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-foreground transition-colors">linkedin.com/in/pierre-alban-catogni</a>
           </div>
         </Reveal>
-        <Reveal delay={450} className="col-span-12 md:col-span-4">
+        <Reveal delay={700} className="col-span-12 md:col-span-4">
           <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
             <img src={portrait} alt="Portrait of Pierre-Alban M. Catogni" className="w-full h-full object-cover" />
           </div>
@@ -159,7 +159,7 @@ function CV() {
       <Section title="Experience">
         <ol className="space-y-14">
           {experience.map((r, idx) => (
-            <Reveal as="li" delay={idx * 120} key={r.company + r.period} className="grid grid-cols-12 gap-6">
+            <Reveal as="li" delay={idx * 220} key={r.company + r.period} className="grid grid-cols-12 gap-6">
               <div className="col-span-12 md:col-span-4">
                 <p className="text-xs text-muted-foreground tabular-nums">{r.period}</p>
                 <h3 className="mt-2 text-lg font-medium tracking-tight">{r.company}</h3>
@@ -195,7 +195,7 @@ function CV() {
       <Section title="Competencies">
         <div className="grid sm:grid-cols-2 gap-10">
           {competencies.map((g, idx) => (
-            <Reveal key={g.label} delay={idx * 120}>
+            <Reveal key={g.label} delay={idx * 220}>
               <p className="text-sm font-medium tracking-tight mb-3">{g.label}</p>
               <ul className="flex flex-wrap gap-x-2 gap-y-2">
                 {g.items.map((i) => (
