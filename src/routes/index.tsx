@@ -194,8 +194,8 @@ function CV() {
 
       <Section title="Competencies">
         <div className="grid sm:grid-cols-2 gap-10">
-          {competencies.map((g) => (
-            <div key={g.label}>
+          {competencies.map((g, idx) => (
+            <Reveal key={g.label} delay={idx * 120}>
               <p className="text-sm font-medium tracking-tight mb-3">{g.label}</p>
               <ul className="flex flex-wrap gap-x-2 gap-y-2">
                 {g.items.map((i) => (
@@ -204,7 +204,7 @@ function CV() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Reveal>
           ))}
         </div>
         <p className="mt-8 text-sm text-muted-foreground">Languages: French · English · German (Intermediate)</p>
