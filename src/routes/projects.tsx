@@ -74,12 +74,12 @@ const projects: Project[] = [
 function Projects() {
   return (
     <div className="mx-auto max-w-6xl px-6">
-      <section className="pt-24 pb-16 md:pt-36 md:pb-24">
+      <Reveal as="section" className="pt-24 pb-16 md:pt-36 md:pb-24">
         <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground mb-6">Selected Work</p>
         <h1 className="display text-[14vw] md:text-[88px] leading-[0.95]">
           Projects
         </h1>
-      </section>
+      </Reveal>
 
       <div className="border-t border-border/70">
         {projects.map((p) => (
