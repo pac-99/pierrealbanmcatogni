@@ -50,7 +50,7 @@ const projects: Project[] = [
     status: "Passion project · In progress",
     summary:
       "Builds a macroeconomic research and data visualization project testing Christine Lagarde's claim at Davos that the 2020s structurally mirror the 1920s across trade fragmentation, productivity booms, debt, inequality, and geopolitical shifts.",
-    tags: ["Data Analysis", "Macroeconomics", "SQL", "Tableau"],
+    tags: ["Data Analysis", "Macroeconomics", "SQL", "Tableau", "Python"],
   },
   {
     index: "05",
