@@ -6,8 +6,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 import appCss from "../styles.css?url";
 
