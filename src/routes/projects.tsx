@@ -22,7 +22,7 @@ const projects: Project[] = [
   {
     index: "01",
     title: "AI-Powered Evidence Review Platform",
-    status: "In progress · Cougar Strategy Group",
+    status: "Cougar Strategy Group",
     summary:
       "Designed end-to-end an AI platform that optimizes document analysis and scoring workflows, cutting review time and standardizing case evaluation across teams.",
     tags: ["Product Design", "Agentic AI", "Workflows"],
