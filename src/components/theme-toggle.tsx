@@ -5,10 +5,7 @@ export function ThemeToggle() {
   const [dark, setDark] = useState(false);
   useEffect(() => {
     const stored = typeof localStorage !== "undefined" ? localStorage.getItem("theme") : null;
-    const prefers =
-      typeof window !== "undefined" &&
-      window.matchMedia?.("(prefers-color-scheme: dark)").matches;
-    const isDark = stored ? stored === "dark" : !!prefers;
+    const isDark = stored === "dark";
     setDark(isDark);
     document.documentElement.classList.toggle("dark", isDark);
   }, []);
