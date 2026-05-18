@@ -54,7 +54,7 @@ const projects: Project[] = [
   },
   {
     index: "05",
-    title: "Investor Portal for Premium Swiss Education Assets",
+    title: "Investor Portal for a Swiss International School Portfolio",
     status: "Client engagement",
     summary:
       "Designed and built a single-page investor presentation website showcasing a portfolio of operating assets, with structured financials, key metrics, and a refined narrative tailored for prospective investors.",
