@@ -43,6 +43,15 @@ const projects: Project[] = [
       "Built prototypes and a go-to-market strategy for an AI-powered sports platform, including user-flow mapping and business model design.",
     tags: ["0→1", "Prototyping", "GTM"],
   },
+  {
+    index: "04",
+    title:
+      "Trade, Technology, and Power Dynamics: A Data Analysis of Macroeconomic Parallels Across the 1920s and 2020s",
+    status: "In progress",
+    summary:
+      "Building a macroeconomic research and data visualization project testing whether the 2020s structurally mirror the 1920s across trade fragmentation, productivity booms, debt, inequality, and geopolitical shifts.",
+    tags: ["Data Analysis", "Macroeconomics", "SQL · Tableau"],
+  },
 ];
 
 function Projects() {
