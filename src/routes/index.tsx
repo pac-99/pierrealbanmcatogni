@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/portrait.jpeg";
+import { Reveal } from "@/components/reveal";
 
 export const Route = createFileRoute("/")({
   component: CV,
@@ -121,12 +122,12 @@ const competencies = [
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="grid grid-cols-12 gap-8 py-16 border-t border-border/70">
+    <Reveal as="section" className="grid grid-cols-12 gap-8 py-16 border-t border-border/70">
       <h2 className="col-span-12 md:col-span-3 text-xs uppercase tracking-[0.18em] text-muted-foreground pt-1">
         {title}
       </h2>
       <div className="col-span-12 md:col-span-9">{children}</div>
-    </section>
+    </Reveal>
   );
 }
 
