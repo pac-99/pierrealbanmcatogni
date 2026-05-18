@@ -25,7 +25,7 @@ const projects: Project[] = [
     status: "Cougar Strategy Group",
     summary:
       "Designed end-to-end an AI platform that optimizes document analysis and scoring workflows, cutting review time and standardizing case evaluation across teams.",
-    tags: ["Product Design", "Agentic AI", "Workflows"],
+    tags: ["Product Design", "Agentic AI", "Workflows", "Vibe Coding"],
   },
   {
     index: "02",
