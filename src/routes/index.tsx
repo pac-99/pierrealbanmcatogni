@@ -24,7 +24,7 @@ const experience: Role[] = [
     company: "Cougar Strategy Group",
     location: "Provo, UT",
     title: "Associate Consultant — Product",
-    period: "Jan. 2026 — Present",
+    period: "Jan. 2026 — May 2026",
     bullets: [
       "Designed an AI-powered evidence review platform end-to-end, optimizing document analysis and scoring workflows to cut review time and standardize case evaluation across teams.",
       "Partner with MBA consulting teams to assess client business and build recommendations that prioritize growth initiatives and optimize market positioning.",
@@ -140,7 +140,7 @@ function CV() {
           <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground mb-6">Curriculum Vitae</p>
           <h1 className="display text-[14vw] md:text-[88px] leading-[0.95]">
             Pierre-Alban<br />
-            <span className="text-muted-foreground">M. Catogni.</span>
+            <span className="text-muted-foreground">M. Catogni</span>
           </h1>
           <div className="mt-10 flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted-foreground">
             <span>Provo, UT</span>
@@ -210,7 +210,7 @@ function CV() {
         <p className="mt-8 text-sm text-muted-foreground">Languages: French · English · German (Intermediate)</p>
       </Section>
 
-      <Section title="Community & Personal">
+      <Section title="Personal Information">
         <div className="grid sm:grid-cols-2 gap-10 text-[15px] text-foreground/80">
           <div>
             <p className="font-medium text-foreground">Model United Nations</p>
@@ -221,7 +221,14 @@ function CV() {
             <p className="text-sm text-muted-foreground">Lausanne, Switzerland · May 2018</p>
           </div>
           <div className="sm:col-span-2">
-            <p>Avid runner, cook and reader. Passionate about new technologies, the great outdoors, and geopolitics.</p>
+            <p className="text-sm font-medium tracking-tight mb-3">Interests</p>
+            <ul className="flex flex-wrap gap-x-2 gap-y-2">
+              {["Running", "Cooking", "Reading", "New Technologies", "Great Outdoors", "Geopolitics"].map((i) => (
+                <li key={i} className="text-[13px] text-foreground/75 border border-border rounded-full px-3 py-1">
+                  {i}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </Section>
