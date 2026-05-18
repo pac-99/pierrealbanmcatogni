@@ -149,7 +149,7 @@ function CV() {
           </div>
         </div>
         <div className="col-span-12 md:col-span-4">
-          <div className="aspect-square overflow-hidden rounded-full md:rounded-3xl bg-muted">
+          <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
             <img src={portrait} alt="Portrait of Pierre-Alban M. Catogni" className="w-full h-full object-cover" />
           </div>
         </div>
