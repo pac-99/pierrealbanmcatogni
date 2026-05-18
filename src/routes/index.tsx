@@ -158,8 +158,8 @@ function CV() {
 
       <Section title="Experience">
         <ol className="space-y-14">
-          {experience.map((r) => (
-            <li key={r.company + r.period} className="grid grid-cols-12 gap-6">
+          {experience.map((r, idx) => (
+            <Reveal as="li" delay={idx * 120} key={r.company + r.period} className="grid grid-cols-12 gap-6">
               <div className="col-span-12 md:col-span-4">
                 <p className="text-xs text-muted-foreground tabular-nums">{r.period}</p>
                 <h3 className="mt-2 text-lg font-medium tracking-tight">{r.company}</h3>
@@ -176,7 +176,7 @@ function CV() {
                   ))}
                 </ul>
               </div>
-            </li>
+            </Reveal>
           ))}
         </ol>
       </Section>
