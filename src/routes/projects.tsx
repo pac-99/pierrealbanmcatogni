@@ -60,6 +60,14 @@ const projects: Project[] = [
       "Designed and developed a web-based investor portal presenting a private international school group in Switzerland. The platform showcases all assets—both business and real estate—with a structured, analytical approach to highlight investment opportunities, financial performance, and strategic value for prospective investors.",
     tags: ["Web Design", "Investor Relations", "Storytelling", "Vibe Coding", "Stakeholder Engagement"],
   },
+  {
+    index: "06",
+    title: "AI Job Search Agent",
+    status: "Personal project · In progress",
+    summary:
+      "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
+    tags: ["Agentic AI", "Product Design", "Automation", "Vibe Coding"],
+  },
 ];
 
 function Projects() {
