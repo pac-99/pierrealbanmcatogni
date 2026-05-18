@@ -158,8 +158,8 @@ function CV() {
 
       <Section title="Experience">
         <ol className="space-y-14">
-          {experience.map((r) => (
-            <li key={r.company + r.period} className="grid grid-cols-12 gap-6">
+          {experience.map((r, idx) => (
+            <Reveal as="li" delay={idx * 120} key={r.company + r.period} className="grid grid-cols-12 gap-6">
               <div className="col-span-12 md:col-span-4">
                 <p className="text-xs text-muted-foreground tabular-nums">{r.period}</p>
                 <h3 className="mt-2 text-lg font-medium tracking-tight">{r.company}</h3>
@@ -176,7 +176,7 @@ function CV() {
                   ))}
                 </ul>
               </div>
-            </li>
+            </Reveal>
           ))}
         </ol>
       </Section>
@@ -194,8 +194,8 @@ function CV() {
 
       <Section title="Competencies">
         <div className="grid sm:grid-cols-2 gap-10">
-          {competencies.map((g) => (
-            <div key={g.label}>
+          {competencies.map((g, idx) => (
+            <Reveal key={g.label} delay={idx * 120}>
               <p className="text-sm font-medium tracking-tight mb-3">{g.label}</p>
               <ul className="flex flex-wrap gap-x-2 gap-y-2">
                 {g.items.map((i) => (
@@ -204,7 +204,7 @@ function CV() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Reveal>
           ))}
         </div>
         <p className="mt-8 text-sm text-muted-foreground">Languages: French · English · German (Intermediate)</p>
