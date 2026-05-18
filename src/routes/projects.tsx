@@ -83,7 +83,8 @@ function Projects() {
 
       <div className="border-t border-border/70">
         {projects.map((p) => (
-          <article
+          <Reveal
+            as="article"
             key={p.index}
             className="group grid grid-cols-12 gap-6 py-14 border-b border-border/70"
           >
@@ -111,7 +112,7 @@ function Projects() {
             <div className="col-span-12 md:col-span-3 md:text-right">
               <p className="text-xs text-muted-foreground">{p.status}</p>
             </div>
-          </article>
+          </Reveal>
         ))}
       </div>
 
