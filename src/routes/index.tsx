@@ -221,7 +221,7 @@ function CV() {
             <p className="text-sm text-muted-foreground">Lausanne, Switzerland · May 2018</p>
           </div>
           <div className="sm:col-span-2">
-            <p className="text-sm font-medium tracking-tight mb-3">Interests</p>
+            <p className="text-sm font-medium tracking-tight mb-3 text-foreground">Interests</p>
             <ul className="flex flex-wrap gap-x-2 gap-y-2">
               {["Running", "Cooking", "Reading", "New Technologies", "Great Outdoors", "Geopolitics"].map((i) => (
                 <li key={i} className="text-[13px] text-foreground/75 border border-border rounded-full px-3 py-1">
