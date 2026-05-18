@@ -50,6 +50,32 @@ function RootShell({ children }: { children: React.ReactNode }) {
   );
 }
 
+function ThemeToggle() {
+  const [dark, setDark] = useState(false);
+  useEffect(() => {
+    const stored = typeof localStorage !== "undefined" ? localStorage.getItem("theme") : null;
+    const prefers = typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+    const isDark = stored ? stored === "dark" : !!prefers;
+    setDark(isDark);
+    document.documentElement.classList.toggle("dark", isDark);
+  }, []);
+  const toggle = () => {
+    const next = !dark;
+    setDark(next);
+    document.documentElement.classList.toggle("dark", next);
+    try { localStorage.setItem("theme", next ? "dark" : "light"); } catch {}
+  };
+  return (
+    <button
+      onClick={toggle}
+      aria-label="Toggle dark mode"
+      className="text-foreground/50 hover:text-foreground transition-colors"
+    >
+      {dark ? <Sun className="h-3.5 w-3.5" /> : <Moon className="h-3.5 w-3.5" />}
+    </button>
+  );
+}
+
 function Nav() {
   const base = "text-[13px] tracking-tight text-foreground/60 hover:text-foreground transition-colors";
   const active = "text-foreground";
@@ -62,6 +88,7 @@ function Nav() {
         <nav className="flex items-center gap-7">
           <Link to="/" className={base} activeOptions={{ exact: true }} activeProps={{ className: `${base} ${active}` }}>CV</Link>
           <Link to="/projects" className={base} activeProps={{ className: `${base} ${active}` }}>Projects</Link>
+          <ThemeToggle />
         </nav>
       </div>
     </header>
