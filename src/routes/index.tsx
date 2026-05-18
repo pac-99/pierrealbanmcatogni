@@ -206,8 +206,17 @@ function CV() {
               </ul>
             </Reveal>
           ))}
+          <Reveal delay={competencies.length * 80}>
+            <p className="text-sm font-medium tracking-tight mb-3">Languages</p>
+            <ul className="flex flex-wrap gap-x-2 gap-y-2">
+              {["French", "English", "German (Intermediate)"].map((i) => (
+                <li key={i} className="text-[13px] text-foreground/75 border border-border rounded-full px-3 py-1">
+                  {i}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
         </div>
-        <p className="mt-8 text-sm text-muted-foreground">Languages: French · English · German (Intermediate)</p>
       </Section>
 
       <Section title="Personal Information">
