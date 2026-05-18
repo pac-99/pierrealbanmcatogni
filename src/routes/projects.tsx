@@ -57,7 +57,7 @@ const projects: Project[] = [
     title: "Investor Portal for a Swiss International School Portfolio",
     status: "Client engagement",
     summary:
-      "Designed and built a single-page investor presentation website showcasing a portfolio of operating assets, with structured financials, key metrics, and a refined narrative tailored for prospective investors.",
+      "Designed and developed a web-based investor portal presenting a private international school group in Switzerland. The platform showcases all assets—both business and real estate—with a structured, analytical approach to highlight investment opportunities, financial performance, and strategic value for prospective investors.",
     tags: ["Web Design", "Investor Relations", "Storytelling"],
   },
 ];
