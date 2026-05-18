@@ -27,7 +27,7 @@ const experience: Role[] = [
     period: "Jan. 2026 — May 2026",
     bullets: [
       "Designed an AI-powered evidence review platform end-to-end, optimizing document analysis and scoring workflows to cut review time and standardize case evaluation across teams.",
-      "Partner with MBA consulting teams to assess client business and build recommendations that prioritize growth initiatives and optimize market positioning.",
+      "Partnered with MBA consulting teams to evaluate client business strategy, prioritize growth initiatives, and develop recommendations to optimize market positioning.",
     ],
   },
   {
