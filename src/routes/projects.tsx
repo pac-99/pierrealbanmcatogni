@@ -52,6 +52,14 @@ const projects: Project[] = [
       "Builds a macroeconomic research and data visualization project testing Christine Lagarde's claim at Davos that the 2020s structurally mirror the 1920s across trade fragmentation, productivity booms, debt, inequality, and geopolitical shifts.",
     tags: ["Data Analysis", "Macroeconomics", "SQL · Tableau"],
   },
+  {
+    index: "05",
+    title: "Investor Presentation Website for a Private Portfolio",
+    status: "Client engagement",
+    summary:
+      "Designed and built a single-page investor presentation website showcasing a portfolio of operating assets, with structured financials, key metrics, and a refined narrative tailored for prospective investors.",
+    tags: ["Web Design", "Investor Relations", "Storytelling"],
+  },
 ];
 
 function Projects() {
