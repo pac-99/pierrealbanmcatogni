@@ -144,9 +144,10 @@ function CV() {
           </h1>
           <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-x-8 gap-y-2 text-sm text-muted-foreground">
             <span>Provo, UT</span>
-            <a href="mailto:pierrealban99@gmail.com" className="underline underline-offset-4 hover:text-foreground transition-colors">pierrealban99@gmail.com</a>
-            <a href="tel:+13852195806" className="hover:text-foreground transition-colors">+1 385 219 5806</a>
-            <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:text-foreground transition-colors">linkedin.com/in/pierre-alban-catogni</a>
+            <a href="mailto:pierrealban99@gmail.com" className="hover:text-foreground transition-colors">pierrealban99@gmail.com</a>
+            <span>US: <a href="tel:+13852195806" className="hover:text-foreground transition-colors">+1 385 219-5806</a></span>
+            <span>FR: <a href="tel:+33784867442" className="hover:text-foreground transition-colors">+33 7 84 86 74 42</a></span>
+            <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="hover:text-foreground transition-colors">linkedin.com/in/pierre-alban-catogni</a>
           </div>
         </Reveal>
         <Reveal delay={200} className="col-span-12 md:col-span-4">
