@@ -147,7 +147,7 @@ function ContactStrip() {
       if (!paused && el) {
         const max = el.scrollWidth - el.clientWidth;
         if (max > 0) {
-          el.scrollLeft = el.scrollLeft >= max - 0.5 ? 0 : el.scrollLeft + 0.4;
+          el.scrollLeft = el.scrollLeft >= max - 0.5 ? 0 : el.scrollLeft + 0.8;
         }
       }
       raf = requestAnimationFrame(step);
