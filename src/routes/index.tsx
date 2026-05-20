@@ -133,6 +133,70 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
+function ContactStrip() {
+  const ref = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (window.matchMedia("(min-width: 640px)").matches) return;
+
+    let paused = false;
+    let raf = 0;
+    const step = () => {
+      if (!paused && el) {
+        const max = el.scrollWidth - el.clientWidth;
+        if (max > 0) {
+          el.scrollLeft = el.scrollLeft >= max - 0.5 ? 0 : el.scrollLeft + 0.4;
+        }
+      }
+      raf = requestAnimationFrame(step);
+    };
+    raf = requestAnimationFrame(step);
+
+    const pause = () => { paused = true; };
+    const resumeSoon = () => { window.setTimeout(() => { paused = false; }, 2500); };
+    el.addEventListener("pointerdown", pause);
+    el.addEventListener("pointerup", resumeSoon);
+    el.addEventListener("pointercancel", resumeSoon);
+    el.addEventListener("pointerleave", resumeSoon);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      el.removeEventListener("pointerdown", pause);
+      el.removeEventListener("pointerup", resumeSoon);
+      el.removeEventListener("pointercancel", resumeSoon);
+      el.removeEventListener("pointerleave", resumeSoon);
+    };
+  }, []);
+
+  const pillBase = "shrink-0 inline-flex items-center gap-1 border border-border rounded-full px-4 py-2 sm:border-0 sm:rounded-none sm:px-0 sm:py-0";
+
+  return (
+    <div
+      ref={ref}
+      className="mt-10 flex flex-row flex-nowrap overflow-x-auto snap-x snap-mandatory gap-2 -mx-6 px-6 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible sm:gap-x-8 sm:gap-y-2 text-sm text-muted-foreground [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+    >
+      <span className={`${pillBase} snap-start`}>Provo, UT</span>
+      <a href="mailto:pierrealban99@gmail.com" className={`${pillBase} snap-start hover:text-foreground transition-colors`}>
+        pierrealban99@gmail.com
+        <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
+      </a>
+      <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className={`${pillBase} snap-start hover:text-foreground transition-colors`}>
+        linkedin.com/in/pierre-alban-catogni
+        <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
+      </a>
+      <span className={`${pillBase} snap-start`}>
+        US:&nbsp;<a href="tel:+13852195806" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+1 385 219-5806<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
+      </span>
+      <span className={`${pillBase} snap-start`}>
+        FR:&nbsp;<a href="tel:+33784867442" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+33 7 84 86 74 42<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
+      </span>
+    </div>
+  );
+}
+
+
 function CV() {
   return (
     <div className="mx-auto max-w-6xl px-6">
