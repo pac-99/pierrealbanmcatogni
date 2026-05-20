@@ -175,7 +175,7 @@ function ContactStrip() {
   return (
     <div
       ref={ref}
-      className="mt-10 flex flex-row flex-nowrap overflow-x-auto gap-2 -mx-6 px-6 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible sm:gap-x-8 sm:gap-y-2 text-sm text-muted-foreground [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] sm:[mask-image:none]"
+      className="mt-10 flex flex-row flex-nowrap overflow-x-auto gap-8 -mx-6 px-6 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible sm:gap-x-8 sm:gap-y-2 text-sm text-muted-foreground [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] sm:[mask-image:none]"
     >
       <span className={pillBase}>Provo, UT</span>
       <a href="mailto:pierrealban99@gmail.com" className={`${pillBase} hover:text-foreground transition-colors`}>
