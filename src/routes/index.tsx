@@ -144,23 +144,10 @@ function CV() {
             Pierre-Alban<br />
             <span className="text-muted-foreground">M. Catogni</span>
           </h1>
-          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap gap-2 sm:gap-x-8 sm:gap-y-2 text-sm text-muted-foreground [&>*]:border [&>*]:border-border [&>*]:rounded-full [&>*]:px-4 [&>*]:py-2 sm:[&>*]:border-0 sm:[&>*]:rounded-none sm:[&>*]:px-0 sm:[&>*]:py-0">
-            <span>Provo, UT</span>
-            <a href="mailto:pierrealban99@gmail.com" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">
-              pierrealban99@gmail.com
-              <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
-            </a>
-            <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">
-              linkedin.com/in/pierre-alban-catogni
-              <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
-            </a>
-            <span className="inline-flex items-center gap-1">
-              US:&nbsp;<a href="tel:+13852195806" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+1 385 219-5806<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
-            </span>
-            <span className="inline-flex items-center gap-1">
-              FR:&nbsp;<a href="tel:+33784867442" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+33 7 84 86 74 42<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
-            </span>
-          </div>
+          <ContactStrip />
+        </Reveal>
+        <Reveal delay={200} className="col-span-12 md:col-span-4">
+          <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
         </Reveal>
         <Reveal delay={200} className="col-span-12 md:col-span-4">
           <div className="aspect-square overflow-hidden rounded-3xl bg-muted">
