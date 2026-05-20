@@ -170,7 +170,7 @@ function ContactStrip() {
     };
   }, []);
 
-  const pillBase = "shrink-0 inline-flex items-center gap-1 border border-border rounded-full px-4 py-2 sm:border-0 sm:rounded-none sm:px-0 sm:py-0";
+  const pillBase = "shrink-0 inline-flex items-center gap-1";
 
   return (
     <div
