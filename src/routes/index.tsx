@@ -149,16 +149,16 @@ function CV() {
               pierrealban99@gmail.com
               <ArrowUpRight className="size-3 opacity-60" aria-hidden />
             </a>
+            <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">
+              linkedin.com/in/pierre-alban-catogni
+              <ArrowUpRight className="size-3 opacity-60" aria-hidden />
+            </a>
             <span className="inline-flex items-center gap-1">
               US:&nbsp;<a href="tel:+13852195806" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+1 385 219-5806<ArrowUpRight className="size-3 opacity-60" aria-hidden /></a>
             </span>
             <span className="inline-flex items-center gap-1">
               FR:&nbsp;<a href="tel:+33784867442" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+33 7 84 86 74 42<ArrowUpRight className="size-3 opacity-60" aria-hidden /></a>
             </span>
-            <a href="https://www.linkedin.com/in/pierre-alban-catogni-688603220" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">
-              linkedin.com/in/pierre-alban-catogni
-              <ArrowUpRight className="size-3 opacity-60" aria-hidden />
-            </a>
           </div>
         </Reveal>
         <Reveal delay={200} className="col-span-12 md:col-span-4">
