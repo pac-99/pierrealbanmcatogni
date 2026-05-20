@@ -83,7 +83,7 @@ const experience: Role[] = [
     title: "Fundraising Project Coordinator",
     period: "Aug. 2022 — Apr. 2023",
     bullets: [
-      "Ranked Top 5 nationally among 140+ fundraisers by leveraging relationship-building, persuasive communication, and data-driven outreach.",
+      "Ranked Top 5 nationally among 140+ fundraisers by leveraging relationship-building, persuasive communication, and data-driven outreach strategies.",
       "Negotiated donor commitments and managed high-volume stakeholder interactions across customer segments.",
       "Led and coached a 10-person team using Scrum methodology to improve outreach quality and conversion performance.",
     ],
