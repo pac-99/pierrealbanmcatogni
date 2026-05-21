@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+
 import portrait from "@/assets/portrait.jpeg";
 import { Reveal } from "@/components/reveal";
 
@@ -134,49 +134,10 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 }
 
 function ContactStrip() {
-  const ref = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    if (window.matchMedia("(min-width: 640px)").matches) return;
-
-    let paused = false;
-    let raf = 0;
-    const step = () => {
-      if (!paused && el) {
-        const max = el.scrollWidth - el.clientWidth;
-        if (max > 0) {
-          el.scrollLeft = el.scrollLeft >= max - 0.5 ? 0 : el.scrollLeft + 0.8;
-        }
-      }
-      raf = requestAnimationFrame(step);
-    };
-    raf = requestAnimationFrame(step);
-
-    const pause = () => { paused = true; };
-    const resumeSoon = () => { window.setTimeout(() => { paused = false; }, 2500); };
-    el.addEventListener("pointerdown", pause);
-    el.addEventListener("pointerup", resumeSoon);
-    el.addEventListener("pointercancel", resumeSoon);
-    el.addEventListener("pointerleave", resumeSoon);
-
-    return () => {
-      cancelAnimationFrame(raf);
-      el.removeEventListener("pointerdown", pause);
-      el.removeEventListener("pointerup", resumeSoon);
-      el.removeEventListener("pointercancel", resumeSoon);
-      el.removeEventListener("pointerleave", resumeSoon);
-    };
-  }, []);
-
   const pillBase = "shrink-0 inline-flex items-center gap-1";
 
-  return (
-    <div
-      ref={ref}
-      className="mt-10 flex flex-row flex-nowrap overflow-x-auto gap-8 -mx-6 px-6 sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible sm:gap-x-8 sm:gap-y-2 text-sm text-muted-foreground [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)] sm:[mask-image:none]"
-    >
+  const items = (
+    <>
       <span className={pillBase}>Provo, UT</span>
       <a href="mailto:pierrealban99@gmail.com" className={`${pillBase} hover:text-foreground transition-colors`}>
         pierrealban99@gmail.com
@@ -192,7 +153,24 @@ function ContactStrip() {
       <span className={pillBase}>
         FR:&nbsp;<a href="tel:+33784867442" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+33 7 84 86 74 42<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
       </span>
-    </div>
+    </>
+  );
+
+  return (
+    <>
+      {/* Mobile: continuous left-to-right marquee */}
+      <div className="mt-10 sm:hidden relative overflow-hidden -mx-6 [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
+        <div className="flex w-max animate-marquee gap-8 pr-8 text-sm text-muted-foreground">
+          <div className="flex shrink-0 gap-8">{items}</div>
+          <div className="flex shrink-0 gap-8" aria-hidden>{items}</div>
+        </div>
+      </div>
+
+      {/* Desktop: static wrap */}
+      <div className="mt-10 hidden sm:flex flex-wrap gap-x-8 gap-y-2 text-sm text-muted-foreground">
+        {items}
+      </div>
+    </>
   );
 }
 
