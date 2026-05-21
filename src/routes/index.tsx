@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowUpRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+
 import portrait from "@/assets/portrait.jpeg";
 import { Reveal } from "@/components/reveal";
 
