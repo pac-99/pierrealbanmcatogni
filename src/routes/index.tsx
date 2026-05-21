@@ -158,11 +158,11 @@ function ContactStrip() {
 
   return (
     <>
-      {/* Mobile: continuous left-to-right marquee */}
-      <div className="mt-10 sm:hidden relative overflow-hidden -mx-6 [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
-        <div className="flex w-max animate-marquee gap-8 pr-8 text-sm text-muted-foreground">
-          <div className="flex shrink-0 gap-8">{items}</div>
-          <div className="flex shrink-0 gap-8" aria-hidden>{items}</div>
+      {/* Mobile: continuous left-to-right marquee, still swipeable */}
+      <div className="mt-10 sm:hidden relative overflow-x-auto -mx-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden [mask-image:linear-gradient(to_right,transparent,black_12%,black_88%,transparent)]">
+        <div className="flex w-max animate-marquee gap-8 pr-8 text-sm text-muted-foreground [animation-play-state:running] [&:hover]:[animation-play-state:paused]">
+          <div className="flex shrink-0 gap-8 pl-6">{items}</div>
+          <div className="flex shrink-0 gap-8 pl-6" aria-hidden>{items}</div>
         </div>
       </div>
 
