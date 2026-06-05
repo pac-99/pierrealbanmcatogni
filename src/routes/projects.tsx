@@ -26,7 +26,7 @@ const projects: Project[] = [
     status: "Cougar Strategy Group",
     summary:
       "Designed end-to-end an AI platform that optimizes document analysis and scoring workflows, cutting review time and standardizing case evaluation across teams.",
-    tags: ["Product Design", "Agentic AI", "Workflows", "Vibe Coding"],
+    tags: ["Product Design", "Agentic AI", "Workflows", "AI-Assisted Development"],
   },
   {
     index: "02",
@@ -59,7 +59,7 @@ const projects: Project[] = [
     status: "Capital Engagement",
     summary:
       "Designed and developed a web-based investor portal presenting a private international school group in Switzerland. The platform showcases all assets—both business and real estate—with a structured, analytical approach to highlight investment opportunities, financial performance, and strategic value for prospective investors.",
-    tags: ["Web Design", "Investor Relations", "Storytelling", "Vibe Coding", "Stakeholder Engagement"],
+    tags: ["Web Design", "Investor Relations", "Storytelling", "AI-Assisted Development", "Stakeholder Engagement"],
   },
   {
     index: "06",
@@ -67,7 +67,7 @@ const projects: Project[] = [
     status: "Personal project · In progress",
     summary:
       "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
-    tags: ["Agentic AI", "Product Design", "Automation", "Vibe Coding"],
+    tags: ["Agentic AI", "Product Design", "Automation", "AI-Assisted Development"],
   },
 ];
 
