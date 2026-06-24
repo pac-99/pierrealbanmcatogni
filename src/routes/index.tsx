@@ -29,8 +29,8 @@ const experience: Role[] = [
     title: "Associate Consultant — Product",
     period: "Jan. 2026 — May 2026",
     bullets: [
-      "Designed an AI-powered evidence review platform end-to-end, optimizing document analysis and scoring workflows to cut review time and standardize case evaluation across teams.",
-      "Partnered with MBA consulting teams to evaluate client business strategy, prioritize growth initiatives, and develop recommendations to optimize market positioning.",
+      "Built an AI-powered evidence review platform using Lovable, integrated into the Microsoft ecosystem, cutting case review time from 2–3 hours to 20–30 minutes; greenlit by leadership for full deployment following prototype testing.",
+      "Served as undergraduate architect of a group-wide evaluation system, analyzing consultant workflows end-to-end to design a process that improved review speed and recommendation accuracy.",
     ],
   },
   {
@@ -39,10 +39,9 @@ const experience: Role[] = [
     title: "Sales and Operations Manager",
     period: "Aug. 2024 — Dec. 2024",
     bullets: [
-      "Led B2B sales and partnership development initiatives supporting UK/US expansion, managing relationships with local and international vendors, suppliers, and business partners.",
-      "Negotiated and coordinated supplier/vendor partnerships to strengthen operational capacity and support cross-border market entry, directly contributing to 30% international expansion.",
-      "Built a 0→1 internal financial compliance and reporting framework integrating accounting data streams, reducing reconciliation errors and improving reporting reliability.",
-      "Developed financial models and Excel dashboards to evaluate revenue opportunities, prioritize growth initiatives, and guide resource allocation.",
+      "Negotiated, sourced, and managed relationships with 5 major vendor partners to support cross-border market entry, driving expansion from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast) and contributing to 37% revenue growth during tenure.",
+      "Designed and delivered a 0→1 financial compliance and reporting system, after identifying gaps in leadership's accounting operations; integrated 3 data streams, eliminated recurring reconciliation errors, and built revenue projection models by market and sales channel; formally adopted by leadership as the new standard.",
+      "Built Excel dashboards mapping historical, current, and projected revenue by market and sales method, directly informing which markets to enter and at what pace.",
     ],
   },
   {
@@ -51,10 +50,9 @@ const experience: Role[] = [
     title: "Operations Consultant Intern",
     period: "Jun. 2024 — Aug. 2024",
     bullets: [
-      "Supported strategic partnerships and supplier negotiations across MENA, contributing to stakeholder discussions with manufacturers, vendors, and retail partners.",
-      "Conducted market and distribution analysis to identify operational efficiencies and expansion opportunities across regional channels.",
-      "Completed compliance and performance audits across MENA, ensuring adherence to corporate financial and regulatory standards across multi-country operations, managing risk mitigation at scale.",
-      "Optimized vendor partnership and retail location strategy to enhance supply chain efficiency and market coverage.",
+      "Supported strategic partnership development across 9 countries in the MENA region, flagging significant compliance gaps including missed payments, overbilled amounts, and regulatory misalignments — corrections implemented across multi-country operations.",
+      "Conducted demographic and cost-benefit analysis to identify optimal retail expansion sites in Dubai; co-led location selection with the business development lead, evaluating footfall, brand visibility, lease costs, and stakeholder relationships to finalize a new store opening.",
+      "Optimized supplier partnerships by identifying a higher-value, lower-cost vendor deal that improved supply chain margins and regional coverage.",
     ],
   },
   {
@@ -63,8 +61,8 @@ const experience: Role[] = [
     title: "Business Operations Intern",
     period: "Mar. 2024 — Apr. 2024",
     bullets: [
-      "Mapped and optimized procurement, inventory, and fulfillment workflows, reducing delivery cycle time by 15%.",
-      "Collaborated with product and operations teams to evaluate product-market fit and identify key customer segments, informing go-to-market strategy for new customer acquisition.",
+      "Identified systemic delays in procurement and fulfillment workflows where standard processing took 10 days; redesigned the delivery system end-to-end and brought cycle time down to under 3 days — beyond the original scope of the role.",
+      "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, directly informing new product development and revised targeting approach for customer acquisition.",
       "Improved internal documentation and vendor communication processes to increase operational consistency and accuracy.",
     ],
   },
@@ -74,8 +72,8 @@ const experience: Role[] = [
     title: "Enrollment Coordinator",
     period: "May 2023 — Dec. 2023",
     bullets: [
-      "Led a 15-person team supporting high-volume international enrollment operations, reinforcing performance standards and collaborative workflows to improve service quality and execution consistency.",
-      "Redesigned international student onboarding and case-management processes, reducing processing time by 20% and improving operational efficiency across workflows.",
+      "Promoted from generalist hire to one of two leads overseeing high-volume international enrollment operations; coordinated the work of 12 colleagues across departments, with leadership formally recognizing and expanding my scope based on results delivered.",
+      "Redesigned international student onboarding and case-management workflows, increasing throughput from 225 to 290 cases per week while maintaining accuracy and service quality.",
       "Managed complex stakeholder relationships across students, academic departments, international services, and external partners to resolve time-sensitive operational cases.",
     ],
   },
@@ -85,9 +83,8 @@ const experience: Role[] = [
     title: "Fundraising Project Coordinator",
     period: "Aug. 2022 — Apr. 2023",
     bullets: [
-      "Ranked Top 5 nationally among 140+ fundraisers by leveraging relationship-building, persuasive communication, and data-driven outreach strategies.",
-      "Negotiated donor commitments and managed high-volume stakeholder interactions across customer segments.",
-      "Led and coached a 10-person team using Scrum methodology to improve outreach quality and conversion performance.",
+      "Ranked Top 5 nationally among 140+ fundraisers over a 9-month period, closing 1,020 donor commitments representing an estimated 215,000+ CHF in annualized retained revenue, with a 12% sign-out rate versus the 17% company average.",
+      "Coached team of 10 using Scrum methodology, driving average daily deals per fundraiser from 3 to 6 — exceeding the company-wide standard of 4 deals/day, sustained consistently over multiple months.",
     ],
   },
   {
@@ -96,7 +93,7 @@ const experience: Role[] = [
     title: "Full-Time Volunteer Representative",
     period: "Mar. 2019 — Jun. 2021",
     bullets: [
-      "Led cross-cultural teams of 30+ volunteers, developing and executing outreach strategies that increased engagement by 250% within three months through data-driven planning and KPI tracking.",
+      "Appointed to leadership roles across 4 zones over 27 months (20 months in leadership total); grew active community reach from baseline to measurably higher engagement in each zone (e.g., 195 → 345 in final zone) through new outreach strategy, training methods, and team coordination.",
       "Managed community development initiatives in partnership with local NGOs and government organizations, coordinating diverse stakeholders to ensure successful project execution.",
       "Trained and mentored 5 volunteers in strategic communication, stakeholder engagement, and leadership principles.",
     ],
