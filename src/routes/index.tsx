@@ -29,7 +29,7 @@ const experience: Role[] = [
     title: "Associate Consultant — Product",
     period: "Jan. 2026 — May 2026",
     bullets: [
-      "Built an AI-powered evidence review platform using Lovable, integrated into the Microsoft ecosystem, cutting case review time from 2–3 hours to 20–30 minutes; greenlit by leadership for full deployment following prototype testing.",
+      "Built an AI-powered evidence review platform using Lovable, integrated into the Microsoft ecosystem, cutting case review time from 2–3 hours to 20–30 minutes.",
       "Served as undergraduate architect of a group-wide evaluation system, analyzing consultant workflows end-to-end to design a process that improved review speed and recommendation accuracy.",
     ],
   },
