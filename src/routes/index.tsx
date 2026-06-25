@@ -62,7 +62,7 @@ const experience: Role[] = [
     period: "Mar. 2024 — Apr. 2024",
     bullets: [
       "Identified systemic delays in procurement and fulfillment workflows where standard processing took 10 days; redesigned the delivery system end-to-end and brought cycle time down to under 3 days — beyond the original scope of the role.",
-      "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, directly informing new product development and revised targeting approach for customer acquisition.",
+      "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, informing new product development and revised targeting approach for customer acquisition.",
     ],
   },
   {
@@ -92,9 +92,9 @@ const experience: Role[] = [
     title: "Full-Time Volunteer Representative",
     period: "Mar. 2019 — Jun. 2021",
     bullets: [
-      "Appointed to leadership roles across 4 zones over 27 months (20 months in leadership total); grew active community reach from baseline to measurably higher engagement in each zone (e.g., 195 → 345 in final zone) through new outreach strategy, training methods, and team coordination.",
+      "Appointed to leadership roles across 4 zones (30+ volunteers each) over 27 months, serving in leadership for 20 of those months; grew active community reach in each zone (e.g., 195 → 345 in final zone) through new outreach strategies, training methods, and team coordination.",
       "Managed community development initiatives in partnership with local NGOs and government organizations, coordinating diverse stakeholders to ensure successful project execution.",
-      "Trained and mentored 5 volunteers in strategic communication, stakeholder engagement, and leadership principles.",
+      "Trained and mentored 5 volunteers in strategic communication, stakeholder engagement, and leadership principles — 4 of whom went on to hold leadership roles themselves, extending the impact of the work well beyond my time in the field.",
     ],
   },
 ];
