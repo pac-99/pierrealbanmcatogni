@@ -71,7 +71,7 @@ const experience: Role[] = [
     title: "Enrollment Coordinator",
     period: "May 2023 — Dec. 2023",
     bullets: [
-      "Promoted from generalist hire to one of two leads overseeing high-volume international enrollment operations; coordinated the work of 12 colleagues across departments, with leadership formally recognizing and expanding my scope based on results delivered.",
+      "Selected to co-lead international enrollment operations out of a generalist hire cohort; coordinated workflows across 12 colleagues and departments, with expanded responsibilities granted based on performance.",
       "Redesigned international student onboarding and case-management workflows, increasing throughput from 225 to 290 cases per week while maintaining accuracy and service quality.",
       "Managed complex stakeholder relationships across students, academic departments, international services, and external partners to resolve time-sensitive operational cases.",
     ],
