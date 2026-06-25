@@ -63,7 +63,6 @@ const experience: Role[] = [
     bullets: [
       "Identified systemic delays in procurement and fulfillment workflows where standard processing took 10 days; redesigned the delivery system end-to-end and brought cycle time down to under 3 days — beyond the original scope of the role.",
       "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, directly informing new product development and revised targeting approach for customer acquisition.",
-      "Improved internal documentation and vendor communication processes to increase operational consistency and accuracy.",
     ],
   },
   {
