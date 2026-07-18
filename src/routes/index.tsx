@@ -40,7 +40,7 @@ const experience: Role[] = [
     period: "Aug. 2024 — Dec. 2024",
     bullets: [
       "Negotiated, sourced, and managed relationships with 5 major vendor partners to support cross-border market entry, driving expansion from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast) and contributing to 37% revenue growth during tenure.",
-      "Designed and delivered a 0→1 financial compliance and reporting system, after identifying gaps in leadership's accounting operations; integrated 3 data streams, eliminated recurring reconciliation errors, and built revenue projection models by market and sales channel; formally adopted by leadership as the new standard.",
+      "Built a 0→1 financial compliance and reporting system after diagnosing gaps in accounting operations; integrated three data streams, eliminated recurring reconciliation errors, and developed revenue projection models by market and sales channel, ultimately adopted as the organization’s standard reporting framework.",
       "Built Excel dashboards mapping historical, current, and projected revenue by market and sales method, directly informing which markets to enter and at what pace.",
     ],
   },
