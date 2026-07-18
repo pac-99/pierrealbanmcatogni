@@ -51,7 +51,7 @@ const experience: Role[] = [
     period: "Jun. 2024 — Aug. 2024",
       bullets: [
         "Audited compliance and performance across 9 MENA countries, identifying missed payments and overbilled amounts, and ensuring adherence to financial and regulatory standards across multi-country operations.",
-        "Conducted demographic and cost-benefit analysis to identify optimal retail expansion sites in Dubai; co-led location selection with the business development lead, evaluating footfall, brand visibility, lease costs, and stakeholder relationships to finalize a new store opening.",
+        "Assessed and benchmarked retail expansion opportunities across Dubai, analyzing demographic trends, footfall patterns, lease economics, and competitive positioning to support the selection of a new store location that strengthened brand presence among the company’s target customer segment.",
         "Optimized supplier partnerships by identifying a higher-value, lower-cost vendor deal that improved supply chain margins and regional coverage.",
       ],
   },
