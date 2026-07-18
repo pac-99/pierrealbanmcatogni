@@ -52,7 +52,7 @@ const experience: Role[] = [
       bullets: [
         "Audited compliance and performance across 9 MENA countries, identifying missed payments and overbilled amounts, and ensuring adherence to financial and regulatory standards across multi-country operations.",
         "Assessed and benchmarked retail expansion opportunities across Dubai, analyzing demographic trends, footfall patterns, lease economics, and competitive positioning to support the selection of a new store location that strengthened brand presence among the company’s target customer segment.",
-        "Optimized supplier partnerships by identifying a higher-value, lower-cost vendor deal that improved supply chain margins and regional coverage.",
+        "Supported supplier strategy analysis by evaluating alternatives that led to a higher-value, lower-cost partnership, improving margins and regional coverage.",
       ],
   },
   {
