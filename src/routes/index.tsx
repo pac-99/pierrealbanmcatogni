@@ -83,7 +83,7 @@ const experience: Role[] = [
     period: "Aug. 2022 — Apr. 2023",
     bullets: [
       "Ranked Top 5 nationally among 140+ fundraisers over a 9-month period, closing 1,020 donor commitments representing an estimated 215,000+ CHF in annualized retained revenue, with a 12% sign-out rate versus the 17% company average.",
-      "Coached team of 10 using Scrum methodology, driving average daily deals per fundraiser from 3 to 6 — exceeding the company-wide standard of 4 deals/day, sustained consistently over multiple months.",
+      "Coached team of 9 using Scrum methodology, driving average daily deals per fundraiser from 3 to 6 — exceeding the company-wide standard of 4 deals/day, sustained consistently over multiple months.",
     ],
   },
   {
