@@ -92,7 +92,7 @@ const experience: Role[] = [
     title: "Full-Time Volunteer Representative",
     period: "Mar. 2019 — Jun. 2021",
     bullets: [
-      "Appointed to leadership roles across 4 zones (30+ volunteers each) over 27 months, serving in leadership for 20 of those months; grew active community reach in each zone (e.g., 195 → 345 in final zone) through new outreach strategies, training methods, and team coordination.",
+      "Appointed to leadership roles across 4 zones (30+ volunteers each) for 20 of 27 months, expanding teaching pools in each zone through targeted outreach strategies, volunteer training, and team coordination (e.g., 194 to 341 in the final zone).",
       "Managed community development initiatives in partnership with local NGOs and government organizations, coordinating diverse stakeholders to ensure successful project execution.",
       "Trained and mentored 5 volunteers in strategic communication, stakeholder engagement, and leadership principles — 4 of whom went on to hold leadership roles themselves, extending the impact of the work well beyond my time in the field.",
     ],
