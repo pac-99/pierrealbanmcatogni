@@ -102,7 +102,7 @@ const experience: Role[] = [
 const competencies = [
   {
     label: "Strategy & Operations",
-    items: ["Strategy Frameworks", "Market Sizing & Benchmarking", "Business Development", "Go-to-Market Strategy", "Agile / Scrum", "Competitive Strategy", "Corporate Strategy", "Agentic Engineering", "AI-Assisted Development"],
+    items: ["Strategy Frameworks", "Market Sizing & Benchmarking", "Business Development", "Go-to-Market Strategy", "Agile / Scrum", "Competitive Strategy", "Corporate Strategy", "Agentic Engineering"],
   },
   {
     label: "Data Analysis & Tools",
