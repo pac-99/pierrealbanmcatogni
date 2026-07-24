@@ -62,7 +62,7 @@ const experience: Role[] = [
     period: "Mar. 2024 — Apr. 2024",
     bullets: [
       "Resolved systemic delays in procurement and fulfillment workflows, mapped the end-to-end process, and redesigned the delivery system by eliminating operational bottlenecks, reducing cycle time from 10 days to under 3.\u00a0",
-      "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, informing new product development and revised targeting approach for customer acquisition.",
+      "Collaborated with product and operations teams to refine customer segmentation and GTM strategy, informing new product development and revised targeting approach for customer acquisition.",
     ],
   },
   {
