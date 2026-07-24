@@ -72,7 +72,7 @@ const experience: Role[] = [
     period: "May 2023 — Dec. 2023",
     bullets: [
       "Selected to co-lead international enrollment operations out of a generalist hire cohort; coordinated workflows across 12 colleagues and departments, with expanded responsibilities granted based on performance.",
-      "Redesigned international student onboarding and case-management workflows, increasing throughput from 225 to 290 cases per week while maintaining accuracy and service quality.",
+      "Redesigned international student onboarding and case-management workflows, increasing average weekly case throughput by 29% without compromising accuracy or service quality.",
       "Managed complex stakeholder relationships across students, academic departments, international services, and external partners to resolve time-sensitive operational cases.",
     ],
   },
