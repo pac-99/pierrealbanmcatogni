@@ -61,7 +61,7 @@ const experience: Role[] = [
     title: "Business Operations Intern",
     period: "Mar. 2024 — Apr. 2024",
     bullets: [
-      "Identified systemic delays in procurement and fulfillment workflows where standard processing took 10 days; redesigned the delivery system end-to-end and brought cycle time down to under 3 days — beyond the original scope of the role.",
+      "Resolved systemic delays in procurement and fulfillment workflows, mapped the end-to-end process, and redesigned the delivery system by eliminating operational bottlenecks, reducing cycle time from 10 days to under 3.\u00a0",
       "Collaborated with product and operations teams to refine customer segmentation and go-to-market strategy, informing new product development and revised targeting approach for customer acquisition.",
     ],
   },
