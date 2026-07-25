@@ -30,7 +30,7 @@ const experience: Role[] = [
     period: "Jan. 2026 — May 2026",
     bullets: [
       "Created an AI-powered evidence review platform integrated into the Microsoft ecosystem, automating consultant workflows and reducing case review time from 2–3 hours to 20–30 minutes.",
-      "Entrusted with redesigning the evaluation methodology after analyzing consultant workflows end-to-end, identifying inefficiencies in existing review processes, and developing a scalable framework to enhance recommendation accuracy and consistency.",
+      "Reengineered the evaluation methodology by assessing consultant workflows across the full review process, diagnosing inefficiencies, and designing a scalable framework that improved recommendation accuracy and consistency.",
     ],
   },
   {
