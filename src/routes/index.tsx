@@ -106,7 +106,7 @@ const competencies = [
   },
   {
     label: "Technical",
-    items: ["Data Analytics", "Agentic Engineering", "Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python", "Quantitative Analysis", "AI Product Development"],
+    items: ["Data Analytics", "Agentic Engineering", "Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python", "Quantitative Analysis", "AI Product Prototyping"],
   },
   {
     label: "Leadership & Communication",
