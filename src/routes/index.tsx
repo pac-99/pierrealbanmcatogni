@@ -221,7 +221,7 @@ function CV() {
         <h3 className="mt-2 text-lg font-medium tracking-tight">Brigham Young University — Marriott School of Business</h3>
         <p className="text-sm text-muted-foreground">Bachelor of Science in Strategic Management · GPA 3.8</p>
         <ul className="mt-4 space-y-2 text-[15px] leading-relaxed text-foreground/80">
-          <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Coursework: Data Analysis and Statistics, Economics of Strategy, Advanced Competitive Strategy, Corporate Strategy, Product Management, Global Negotiations </li>
+          <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Coursework: Data Analysis and Statistics, Economics of Strategy, Advanced Competitive Strategy, Corporate Strategy, Product Management, Global Negotiations, Financial & Managerial Accounting.</li>
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Conducted weekly intensive business case analyses, delivering MBB-level recommendations for growth, development, and problem solving.</li>
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Associations: BYU Corporate Strategy Association, BYU Product Management Association, BYU Management Consulting Association.</li>
         </ul>
