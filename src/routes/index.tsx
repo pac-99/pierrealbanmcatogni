@@ -101,16 +101,16 @@ const experience: Role[] = [
 
 const competencies = [
   {
-    label: "Strategy & Operations",
-    items: ["Strategy Frameworks", "Market Sizing & Benchmarking", "Business Development", "Go-to-Market Strategy", "Agile / Scrum", "Competitive Strategy", "Corporate Strategy", "Agentic Engineering"],
+    label: "Strategy & Growth",
+    items: ["Strategy Development", "Market Sizing & Benchmarking", "Go-to-Market Strategy", "Business Development", "Growth Strategy", "Competitive Analysis", "Product Strategy"],
   },
   {
-    label: "Data Analysis & Tools",
-    items: ["Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python", "Quantitative Analysis"],
+    label: "Technical",
+    items: ["Data Analytics", "Agentic Engineering", "Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python", "Quantitative Analysis", "AI Product Development"],
   },
   {
-    label: "Client & Stakeholder",
-    items: ["Executive Presentations", "Cross-Cultural Communication", "Stakeholder Coordination", "Customer Segmentation & Account Mapping", "Negotiation", "Partnership Strategy"],
+    label: "Leadership & Communication",
+    items: ["Executive Communication", "Stakeholder Management", "Cross-Cultural Communication", "Negotiation", "Partnership Development", "Structured Problem Solving", "Cross-functional Collaboration", "Customer Segmentation & Account Mapping"],
   },
   {
     label: "Professionalism",
