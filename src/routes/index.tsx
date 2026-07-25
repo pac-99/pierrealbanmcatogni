@@ -114,7 +114,7 @@ const competencies = [
   },
   {
     label: "Professionalism",
-    items: ["Driven", "Curious", "Deliberate", "Problem-Solver", "Adaptable", "Organized", "Analytical", "Team Player", "Deep Learner", "Creative", "Detail-Oriented", "Comfortable with Ambiguity", "Innovative Mindset"],
+    items: ["Driven", "Curious", "Deliberate", "Problem-Solver", "Adaptable", "Organized", "Analytical", "Team Player", "Deep Learner", "Creative", "Detail-Oriented", "Comfortable with Ambiguity", "Entrepreneurial Mindset"],
   },
 ];
 
