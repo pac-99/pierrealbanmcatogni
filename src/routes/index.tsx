@@ -114,7 +114,7 @@ const competencies = [
   },
   {
     label: "Professionalism",
-    items: ["Structured Problem Solving", "Learning Agility", "Comfort with Ambiguity", "Ownership", "Bias for Action", "Entrepreneurial Mindset", "Analytical Thinking", "Team Player"],
+    items: ["Learning Agility", "Comfort with Ambiguity", "Ownership", "Bias for Action", "Entrepreneurial Mindset", "Analytical Thinking", "Team Player"],
   },
 ];
 
