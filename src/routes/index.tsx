@@ -144,7 +144,7 @@ function ContactStrip() {
         <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
       </a>
       <span className={pillBase}>
-        US:&nbsp;<a href="tel:+13852195806" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+1 385 219-5806<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
+        US:&nbsp;<a href="tel:+13852195806" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+1 385 219 5806<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
       </span>
       <span className={pillBase}>
         FR:&nbsp;<a href="tel:+33784867442" className="inline-flex items-center gap-1 hover:text-foreground transition-colors">+33 7 84 86 74 42<ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden /></a>
