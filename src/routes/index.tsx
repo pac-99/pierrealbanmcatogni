@@ -41,7 +41,7 @@ const experience: Role[] = [
     bullets: [
       "Negotiated, sourced, and managed 5 major vendor partnerships to enable cross-border market entry, expanding operations from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast).",
       "Established the company’s 0→1 financial compliance and reporting system after independently diagnosing gaps in accounting operations; integrated three data streams, eliminated reconciliation errors, and embedded revenue projection models by market and sales channel to inform growth strategy.",
-      "Built and led the operations and sales teams to execute the growth strategy, analyzing historical performance and market dynamics to prioritize expansion into 3 new regions, optimize resource allocation, and contribute to 37% revenue growth during tenure.",
+      "Built and led the operations and sales teams to execute the growth strategy, analyzing historical performance and market dynamics to prioritize expansion into 3 new regions, optimize resource allocation, and contribute to 37% revenue growth.",
     ],
   },
   {
