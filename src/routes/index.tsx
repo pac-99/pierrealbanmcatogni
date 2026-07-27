@@ -39,9 +39,9 @@ const experience: Role[] = [
     title: "Sales and Operations Manager",
     period: "Aug. 2024 — Dec. 2024",
     bullets: [
-      "Negotiated, sourced, and managed relationships with 5 major vendor partners to support cross-border market entry, driving expansion from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast) and contributing to 37% revenue growth during tenure.",
+      "Negotiated, sourced, and managed 5 major vendor partnerships to enable cross-border market entry, expanding operations from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast).",
       "Established the company’s 0→1 financial compliance and reporting system—integrating three data streams, eliminating reconciliation errors, and embedding revenue projection models by market and sales channel to inform growth strategy.",
-      "Analyzed historical performance data and market dynamics across geographies and sales channels to develop expansion priorities, informing market entry decisions across 3 new regions and optimizing resource allocation.",
+      "Built and led the operations and sales teams to execute the growth strategy, analyzing historical performance and market dynamics to prioritize expansion into 3 new regions, optimize resource allocation, and contribute to 37% revenue growth during tenure.",
     ],
   },
   {
