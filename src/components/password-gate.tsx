@@ -40,32 +40,33 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="relative">
-      <div className="blur-[7px] select-none pointer-events-none" aria-hidden>
+      <div className="blur-[10px] opacity-45 select-none pointer-events-none" aria-hidden>
         {children}
       </div>
 
       {ready && (
-        <div className="absolute inset-0 z-30 flex items-start justify-center bg-background/40">
-          <form
-            onSubmit={onSubmit}
-            className="sticky top-32 w-full max-w-sm rounded-2xl border border-border bg-background/90 backdrop-blur-xl p-6 shadow-sm"
-          >
-            <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground">Protected</p>
-            <p className="mt-2 text-[15px] text-foreground/80">Enter the password to view this page.</p>
+        <div className="absolute inset-0 z-30 flex items-start justify-center px-6">
+          <form onSubmit={onSubmit} className="w-full max-w-xs mt-40 md:mt-56 text-center">
+            <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">Private</p>
+            <p className="mt-3 text-[15px] leading-relaxed text-foreground/70">
+              Enter the password to continue.
+            </p>
             <input
               type="password"
               inputMode="numeric"
               autoComplete="current-password"
               value={value}
               onChange={(e) => setValue(e.target.value)}
-              className="mt-4 w-full rounded-full border border-border bg-transparent px-4 py-2 text-sm outline-none focus:border-foreground/40"
+              className="mt-6 w-full rounded-full border border-border/70 bg-transparent px-4 py-2.5 text-sm text-center tracking-[0.2em] outline-none transition-colors placeholder:tracking-normal placeholder:text-muted-foreground/60 focus:border-foreground/25"
               placeholder="Password"
             />
-            {error && <p className="mt-2 text-[13px] text-destructive">Incorrect password</p>}
+            <div className="h-5 mt-2">
+              {error && <p className="text-[13px] text-muted-foreground">Incorrect password</p>}
+            </div>
             <button
               type="submit"
               disabled={pending}
-              className="mt-4 w-full rounded-full bg-foreground text-background text-sm py-2 disabled:opacity-60"
+              className="mt-1 w-full rounded-full border border-border/70 text-sm py-2.5 text-foreground/80 transition-colors hover:border-foreground/25 hover:text-foreground disabled:opacity-50"
             >
               {pending ? "Checking…" : "Enter"}
             </button>
