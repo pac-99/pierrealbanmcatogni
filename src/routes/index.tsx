@@ -135,7 +135,6 @@ function ContactStrip() {
 
   const items = (
     <>
-      <span className={pillBase}>Provo, UT</span>
       <a href="mailto:pierrealban99@gmail.com" className={`${pillBase} hover:text-foreground transition-colors`}>
         pierrealban99@gmail.com
         <ArrowUpRight className="size-2 opacity-60 -translate-y-1" aria-hidden />
