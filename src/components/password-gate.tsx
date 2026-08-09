@@ -47,8 +47,7 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
       {ready && (
         <div className="absolute inset-0 z-30 flex items-start justify-center px-6">
           <form onSubmit={onSubmit} className="w-full max-w-xs mt-40 md:mt-56 text-center">
-            <p className="text-xs uppercase tracking-[0.22em] text-muted-foreground">Private</p>
-            <p className="mt-3 text-[15px] leading-relaxed text-foreground/70">
+            <p className="text-[15px] leading-relaxed text-foreground/70">
               Enter the password to continue.
             </p>
             <input
@@ -60,13 +59,13 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
               className="mt-6 w-full rounded-full border border-border/70 bg-transparent px-4 py-2.5 text-sm text-center tracking-[0.2em] outline-none transition-colors placeholder:tracking-normal placeholder:text-muted-foreground/60 focus:border-foreground/25"
               placeholder="Password"
             />
-            <div className="h-5 mt-2">
+            <div className="h-4 mt-1">
               {error && <p className="text-[13px] text-muted-foreground">Incorrect password</p>}
             </div>
             <button
               type="submit"
               disabled={pending}
-              className="mt-1 w-full rounded-full border border-border/70 text-sm py-2.5 text-foreground/80 transition-colors hover:border-foreground/25 hover:text-foreground disabled:opacity-50"
+              className="mt-2 w-[80%] rounded-full bg-black text-white text-sm py-2.5 transition-colors hover:bg-black/80 disabled:opacity-50 dark:bg-white dark:text-black"
             >
               {pending ? "Checking…" : "Enter"}
             </button>
