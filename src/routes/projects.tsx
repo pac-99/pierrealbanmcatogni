@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Reveal } from "@/components/reveal";
+import { PasswordGate } from "@/components/password-gate";
 
 export const Route = createFileRoute("/projects")({
   component: Projects,
@@ -81,6 +82,7 @@ function Projects() {
         </h1>
       </Reveal>
 
+      <PasswordGate>
       <div className="border-t border-border/70">
         {projects.map((p, idx) => (
           <Reveal
@@ -121,6 +123,7 @@ function Projects() {
         <span>© Pierre-Alban M. Catogni</span>
         <a href="mailto:pierrealban99@gmail.com" className="hover:text-foreground">Get in touch →</a>
       </footer>
+      </PasswordGate>
     </div>
   );
 }

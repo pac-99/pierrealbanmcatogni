@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 
 import portrait from "@/assets/portrait.jpeg";
 import { Reveal } from "@/components/reveal";
+import { PasswordGate } from "@/components/password-gate";
 
 export const Route = createFileRoute("/")({
   component: CV,
@@ -191,6 +192,7 @@ function CV() {
         </Reveal>
       </section>
 
+      <PasswordGate>
       <Section title="Experience">
         <ol className="space-y-14">
           {experience.map((r, idx) => (
@@ -281,6 +283,7 @@ function CV() {
         <span>© Pierre-Alban M. Catogni</span>
         <a href="mailto:pierrealban99@gmail.com" className="hover:text-foreground">Get in touch →</a>
       </footer>
+      </PasswordGate>
     </div>
   );
 }
