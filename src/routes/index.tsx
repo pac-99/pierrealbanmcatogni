@@ -11,10 +11,6 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Pierre-Alban M. Catogni — CV" },
       { name: "description", content: "Strategy, product and operations. Provo, UT." },
-      { property: "og:title", content: "Pierre-Alban M. Catogni — CV" },
-      { property: "og:description", content: "Strategy, product and operations. Provo, UT." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
 });
@@ -224,7 +220,7 @@ function CV() {
       <Section title="Education">
         <p className="text-xs text-muted-foreground tabular-nums">Apr. 2026 · Provo, UT</p>
         <h3 className="mt-2 text-lg font-medium tracking-tight">Brigham Young University — Marriott School of Business</h3>
-        <p className="text-sm text-muted-foreground">Bachelor of Science in Strategic Management</p>
+        <p className="text-sm text-muted-foreground">Bachelor of Science in Strategic Management · GPA 3.8/4.0</p>
         <ul className="mt-4 space-y-2 text-[15px] leading-relaxed text-foreground/80">
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Coursework: Data Analysis and Statistics, Economics of Strategy, Advanced Competitive Strategy, Corporate Strategy, Product Management, Global Negotiations, Financial & Managerial Accounting.</li>
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Conducted weekly intensive business case analyses, delivering MBB-level recommendations for growth, development, and problem solving.</li>

@@ -21,6 +21,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:title", content: "Pierre-Alban M. Catogni" },
       { property: "og:description", content: "CV and selected projects of Pierre-Alban M. Catogni." },
       { name: "twitter:description", content: "CV and selected projects of Pierre-Alban M. Catogni." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/msWxEt2UsFUGq4riCaIq0GrA1Q43/social-images/social-1779115677948-IMG_5792.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/msWxEt2UsFUGq4riCaIq0GrA1Q43/social-images/social-1779115677948-IMG_5792.webp" },
       { name: "twitter:card", content: "summary_large_image" },
       { property: "og:type", content: "website" },
     ],
