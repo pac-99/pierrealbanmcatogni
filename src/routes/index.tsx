@@ -11,6 +11,10 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Pierre-Alban M. Catogni — CV" },
       { name: "description", content: "Strategy, product and operations. Provo, UT." },
+      { property: "og:title", content: "Pierre-Alban M. Catogni — CV" },
+      { property: "og:description", content: "Strategy, product and operations. Provo, UT." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
 });
