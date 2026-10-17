@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { unlockSite } from "@/lib/gate.functions";
+import { Button } from "@/components/ui/button";
+import { PasswordRequest } from "@/components/password-request";
 
 const STORAGE_KEY = "site-unlocked";
 
@@ -46,7 +48,8 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
 
       {ready && (
         <div className="absolute inset-0 z-30 flex items-start justify-center px-6">
-          <form onSubmit={onSubmit} className="w-full max-w-xs mt-40 md:mt-56 text-center">
+          <div className="w-full max-w-xs mt-40 md:mt-56 text-center">
+          <form onSubmit={onSubmit}>
             <p className="text-[15px] leading-relaxed text-foreground/70">
               Enter the password to continue.
             </p>
@@ -58,18 +61,21 @@ export function PasswordGate({ children }: { children: React.ReactNode }) {
               onChange={(e) => setValue(e.target.value)}
               className="mt-6 w-full rounded-full border border-border/70 bg-transparent px-4 py-2.5 text-sm text-center tracking-[0.2em] outline-none transition-colors placeholder:tracking-normal placeholder:text-muted-foreground/60 focus:border-foreground/25"
               placeholder="Password"
+              aria-label="Password"
             />
             <div className="h-4 mt-1">
               {error && <p className="text-[13px] text-muted-foreground">Incorrect password</p>}
             </div>
-            <button
+            <Button
               type="submit"
               disabled={pending}
-              className="mt-2 w-[80%] rounded-full bg-black text-white text-sm py-2.5 transition-colors hover:bg-black/80 disabled:opacity-50 dark:bg-white dark:text-black"
+              className="mt-2 h-10 w-[80%] rounded-full text-sm shadow-none font-normal"
             >
               {pending ? "Checking…" : "Enter"}
-            </button>
+            </Button>
           </form>
+          <PasswordRequest />
+          </div>
         </div>
       )}
     </div>

@@ -8,6 +8,10 @@ export const Route = createFileRoute("/projects")({
     meta: [
       { title: "Projects — Pierre-Alban M. Catogni" },
       { name: "description", content: "Selected projects in strategy, product, and AI." },
+      { property: "og:title", content: "Projects — Pierre-Alban M. Catogni" },
+      { property: "og:description", content: "Selected projects in strategy, product, and AI." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
 });
