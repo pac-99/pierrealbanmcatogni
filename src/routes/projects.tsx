@@ -71,7 +71,7 @@ const projects: Project[] = [
     tags: ["Data Analysis", "Macroeconomics", "SQL", "Tableau", "Python"],
   },
   {
-    index: "06",
+    index: "07",
     title: "FOUDE — Family Recipe & Meal Planning App",
     status: "Family project · Product concept \n(personal use)",
     summary:
@@ -79,7 +79,7 @@ const projects: Project[] = [
     tags: ["Product Development", "UX/UI Design", "Prototyping", "Product Testing"],
   },
   {
-    index: "07",
+    index: "08",
     title: "EU–DRC Cobalt Supply Chain",
     status: "Research paper",
     summary:
