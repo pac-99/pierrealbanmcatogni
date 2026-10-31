@@ -70,6 +70,14 @@ const projects: Project[] = [
       "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
     tags: ["Agentic Engineering", "Product Design", "Automation", "AI-Assisted Development"],
   },
+  {
+    index: "07",
+    title: "World Perspectives",
+    status: "Personal project · Prototype",
+    summary:
+      "Developed a geopolitical intelligence platform using Claude to build a more critical and comprehensive understanding of global issues, particularly those overlooked in mainstream international coverage. Brings together local, international, and scholarly perspectives through AI agents that source and synthesize reporting, highlight key journalists and research, and surface underrepresented voices. Combines an interactive world map, country-level intelligence tabs, and an interactive library of curated articles and research to help users explore geopolitical trends, monitor developments, and understand shifting global dynamics.",
+    tags: ["Product Development", "Agentic AI", "Information Architecture", "Data Visualization", "Workflow Automation"],
+  },
 ];
 
 function Projects() {
