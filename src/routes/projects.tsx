@@ -73,7 +73,7 @@ const projects: Project[] = [
   {
     index: "07",
     title: "EU–DRC Cobalt Supply Chain",
-    status: "Strategic research paper",
+    status: "Research paper",
     summary:
       "Authored a research paper analyzing financial, ethical, and compliance challenges in the EU–DRC cobalt supply chain and global trade flows.",
     tags: ["Research", "Geopolitics", "Compliance"],
