@@ -30,7 +30,7 @@ const experience: Role[] = [
     title: "Associate Consultant — Product",
     period: "Jan. 2026 — May 2026",
     bullets: [
-      "Created an AI-powered evidence review platform integrated into the Microsoft ecosystem, automating consultant workflows and reducing case review time from 2–3 hours to 20–30 minutes.",
+      "Built an AI-powered evidence review platform integrated into the Microsoft ecosystem, automating consultant workflows and reducing case review time from 2–3 hours to 20–30 minutes.",
       "Worked with management to map and refine evaluation workflows, test platform functionality, incorporate feedback and iterate on the platform, while standardizing evaluation criteria to improve recommendation quality and consistency.",
       "Created SOPs, process documentation, training materials, operational templates and handover guides to standardize workflows, support platform adoption and ensure continuity across teams.",
     ],
