@@ -51,7 +51,7 @@ const projects: Project[] = [
       "Trade, Technology, and Power Dynamics: A Data Analysis of Macroeconomic Parallels Across the 1920s and 2020s",
     status: "Passion project · In progress",
     summary:
-      "Builds a macroeconomic research and data visualization project testing Christine Lagarde's claim at Davos that the 2020s structurally mirror the 1920s across trade fragmentation, productivity booms, debt, inequality, and geopolitical shifts.",
+      "Building a macroeconomic research and data visualization project testing Christine Lagarde's claim at Davos that the 2020s structurally mirror the 1920s across trade fragmentation, productivity booms, debt, inequality, and geopolitical shifts.",
     tags: ["Data Analysis", "Macroeconomics", "SQL", "Tableau", "Python"],
   },
   {
