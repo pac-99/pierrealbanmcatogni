@@ -72,7 +72,7 @@ const projects: Project[] = [
   },
   {
     index: "07",
-    title: "World Perspectives",
+    title: "PERSPECTIVE — Underreported Geopolitical Insights",
     status: "Personal project · Prototype",
     summary:
       "Developed a geopolitical intelligence platform using Claude to build a more critical and comprehensive understanding of global issues, particularly those overlooked in mainstream international coverage. Brings together local, international, and scholarly perspectives through AI agents that source and synthesize reporting, highlight key journalists and research, and surface underrepresented voices. Combines an interactive world map, country-level intelligence tabs, and an interactive library of curated articles and research to help users explore geopolitical trends, monitor developments, and understand shifting global dynamics.",
