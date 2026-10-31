@@ -73,7 +73,7 @@ const projects: Project[] = [
   {
     index: "06",
     title: "FOUDE — Family Recipe & Meal Planning App",
-    status: "Family project · Product concept (personal use)",
+    status: "Family project · Product concept \n(personal use)",
     summary:
       "Developed a family recipe app that gives everyone a shared place to preserve family recipes and organize meals together. Members can contribute their own recipes and help decide what gets cooked at upcoming family gatherings, with meal planning and shopping lists all managed in one place. The generational family cookbook, alive.",
     tags: ["Product Development", "UX/UI Design", "Prototyping", "Product Testing"],
