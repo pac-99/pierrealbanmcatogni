@@ -51,7 +51,7 @@ const projects: Project[] = [
     status: "Personal project · In progress",
     summary:
       "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
-    tags: ["Agentic Engineering", "Product Design", "Automation", "AI-Assisted Development"],
+    tags: ["AI Workflow Automation", "Product Design", "Automation", "AI-Assisted Development"],
   },
   {
     index: "05",
