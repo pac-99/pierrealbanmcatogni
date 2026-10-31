@@ -31,7 +31,8 @@ const experience: Role[] = [
     period: "Jan. 2026 — May 2026",
     bullets: [
       "Created an AI-powered evidence review platform integrated into the Microsoft ecosystem, automating consultant workflows and reducing case review time from 2–3 hours to 20–30 minutes.",
-      "Reengineered the firm's evaluation methodology, tracing consultant reviews from intake through recommendation, isolating points where evaluation quality degraded, and codifying a scalable framework that lifted recommendation accuracy and consistency.",
+      "Worked with management to map and refine evaluation workflows, test platform functionality, incorporate feedback and iterate on the platform, while standardizing evaluation criteria to improve recommendation quality and consistency.",
+      "Created SOPs, process documentation, training materials, operational templates and handover guides to standardize workflows, support platform adoption and ensure continuity across teams.",
     ],
   },
   {
@@ -41,7 +42,7 @@ const experience: Role[] = [
     period: "Aug. 2024 — Dec. 2024",
     bullets: [
       "Negotiated, sourced, and managed 5 major vendor partnerships to enable cross-border market entry, expanding operations from 4 markets (Paris, Geneva, Lausanne, Brussels) into 3 new ones (London, US East and West Coast).",
-      "Established the company’s 0→1 financial compliance and reporting system after independently diagnosing gaps in accounting operations; integrated three data streams, eliminated reconciliation errors, and embedded revenue projection models by market and sales channel to inform growth strategy.",
+      "Established the company's 0→1 financial compliance and reporting system after independently diagnosing gaps in accounting operations; integrated three data streams, eliminated reconciliation errors, and documented standardized reporting procedures alongside revenue projection models by market and sales channel.",
       "Built and led the operations and sales teams to execute the growth strategy, analyzing historical performance and market dynamics to prioritize expansion into 3 new regions, optimize resource allocation, and contribute to 37% revenue growth.",
     ],
   },
@@ -103,19 +104,23 @@ const experience: Role[] = [
 const competencies = [
   {
     label: "Strategy & Growth",
-    items: ["Strategy Development", "Growth Strategy", "Product Strategy", "Go-to-Market Strategy", "Business Development", "Market Sizing & Benchmarking", "Competitive Analysis"],
+    items: ["Business Strategy", "Growth Strategy", "Go-to-Market Strategy", "Business Development", "Market & Competitive Analysis", "Financial Analysis"],
   },
   {
-    label: "Technical",
-    items: ["Data Analytics", "Agentic Engineering", "Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python", "AI Product Prototyping"],
+    label: "Product & Operations",
+    items: ["Product Management", "Product Implementation", "Workflow Design & Optimization", "Process Mapping & SOP Development", "Product Testing & Iteration", "Operational Excellence"],
+  },
+  {
+    label: "Technical & Analytical",
+    items: ["Data Analytics", "AI Workflow Automation", "AI Product Prototyping", "Excel (Advanced, VBA)", "SQL", "Tableau", "R", "Python"],
   },
   {
     label: "Leadership & Communication",
-    items: ["Executive Communication", "Stakeholder Management", "Cross-Cultural Communication", "Negotiation", "Partnership Development", "Structured Problem Solving", "Cross-functional Collaboration", "Customer Segmentation & Account Mapping"],
+    items: ["Stakeholder Management", "Cross-functional Collaboration", "Client Communication", "Presentation & Training", "Negotiation", "Partnership Development", "Project Coordination"],
   },
   {
-    label: "Professionalism",
-    items: ["Learning Agility", "Comfort with Ambiguity", "Ownership", "Bias for Action", "Entrepreneurial Mindset", "Analytical Thinking", "Team Player"],
+    label: "Professional",
+    items: ["Structured Problem Solving", "Ownership & Accountability", "Comfort with Ambiguity", "Bias for Action", "Adaptability"],
   },
 ];
 
@@ -223,7 +228,7 @@ function CV() {
         <p className="text-sm text-muted-foreground">Bachelor of Science in Strategic Management · GPA 3.8/4.0</p>
         <ul className="mt-4 space-y-2 text-[15px] leading-relaxed text-foreground/80">
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Coursework: Data Analysis and Statistics, Economics of Strategy, Advanced Competitive Strategy, Corporate Strategy, Product Management, Global Negotiations, Financial & Managerial Accounting.</li>
-          <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Conducted weekly intensive business case analyses, delivering MBB-level recommendations for growth, development, and problem solving.</li>
+          <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Applied structured analytical frameworks to evaluate business problems and develop actionable recommendations through weekly case analyses.</li>
           <li className="pl-5 relative"><span className="absolute left-0 top-[0.7em] w-2 h-px bg-muted-foreground/60" />Associations: BYU Corporate Strategy, BYU Product Management, BYU Management Consulting.</li>
         </ul>
       </Section>
@@ -255,7 +260,7 @@ function CV() {
         </div>
       </Section>
 
-      <Section title="Personal Information">
+      <Section title="Additional Information">
         <div className="grid sm:grid-cols-2 gap-10 text-[15px] text-foreground/80">
           <div>
             <p className="font-medium text-foreground">Model United Nations</p>
@@ -263,6 +268,7 @@ function CV() {
           </div>
           <div>
             <p className="font-medium text-foreground">International Baccalaureate</p>
+            <p className="text-sm text-muted-foreground">École Nouvelle de la Suisse Romande</p>
             <p className="text-sm text-muted-foreground">Lausanne, Switzerland · May 2018</p>
           </div>
           <div className="sm:col-span-2">
