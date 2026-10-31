@@ -31,14 +31,30 @@ const projects: Project[] = [
   },
   {
     index: "02",
-    title: "EU–DRC Cobalt Supply Chain",
-    status: "Strategic research paper",
+    title: "PERSPECTIVE — Underreported Geopolitical Insights",
+    status: "Personal project · Prototype",
     summary:
-      "Authored a research paper analyzing financial, ethical, and compliance challenges in the EU–DRC cobalt supply chain and global trade flows.",
-    tags: ["Research", "Geopolitics", "Compliance"],
+      "Developed a geopolitical intelligence platform using Claude to build a more critical and comprehensive understanding of global issues, particularly those overlooked in mainstream international coverage. Brings together local, international, and scholarly perspectives through AI agents that source and synthesize reporting, highlight key journalists and research, and surface underrepresented voices. Combines an interactive world map, country-level intelligence tabs, and an interactive library of curated articles and research to help users explore geopolitical trends, monitor developments, and understand shifting global dynamics.",
+    tags: ["Product Development", "Agentic AI", "Information Architecture", "Data Visualization", "Workflow Automation"],
   },
   {
     index: "03",
+    title: "Investor Portal for a Swiss International School Portfolio",
+    status: "Capital Engagement",
+    summary:
+      "Designed and developed a web-based investor portal presenting a private international school group in Switzerland. The platform showcases all assets—both business and real estate—with a structured, analytical approach to highlight investment opportunities, financial performance, and strategic value for prospective investors.",
+    tags: ["Web Design", "Investor Relations", "Storytelling", "AI-Assisted Development", "Stakeholder Engagement"],
+  },
+  {
+    index: "04",
+    title: "AI Job Search Agent",
+    status: "Personal project · In progress",
+    summary:
+      "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
+    tags: ["Agentic Engineering", "Product Design", "Automation", "AI-Assisted Development"],
+  },
+  {
+    index: "05",
     title: "AI-Powered Sports Platform",
     status: "Prototype · Go-to-market",
     summary:
@@ -46,7 +62,7 @@ const projects: Project[] = [
     tags: ["0→1", "Prototyping", "GTM"],
   },
   {
-    index: "04",
+    index: "06",
     title:
       "Trade, Technology, and Power Dynamics: A Data Analysis of Macroeconomic Parallels Across the 1920s and 2020s",
     status: "Passion project · In progress",
@@ -55,28 +71,12 @@ const projects: Project[] = [
     tags: ["Data Analysis", "Macroeconomics", "SQL", "Tableau", "Python"],
   },
   {
-    index: "05",
-    title: "Investor Portal for a Swiss International School Portfolio",
-    status: "Capital Engagement",
-    summary:
-      "Designed and developed a web-based investor portal presenting a private international school group in Switzerland. The platform showcases all assets—both business and real estate—with a structured, analytical approach to highlight investment opportunities, financial performance, and strategic value for prospective investors.",
-    tags: ["Web Design", "Investor Relations", "Storytelling", "AI-Assisted Development", "Stakeholder Engagement"],
-  },
-  {
-    index: "06",
-    title: "AI Job Search Agent",
-    status: "Personal project · In progress",
-    summary:
-      "Building an agentic AI system that identifies and scores relevant opportunities, generates tailored application recommendations, and maintains a live opportunity tracker to support structured job search execution.",
-    tags: ["Agentic Engineering", "Product Design", "Automation", "AI-Assisted Development"],
-  },
-  {
     index: "07",
-    title: "PERSPECTIVE — Underreported Geopolitical Insights",
-    status: "Personal project · Prototype",
+    title: "EU–DRC Cobalt Supply Chain",
+    status: "Strategic research paper",
     summary:
-      "Developed a geopolitical intelligence platform using Claude to build a more critical and comprehensive understanding of global issues, particularly those overlooked in mainstream international coverage. Brings together local, international, and scholarly perspectives through AI agents that source and synthesize reporting, highlight key journalists and research, and surface underrepresented voices. Combines an interactive world map, country-level intelligence tabs, and an interactive library of curated articles and research to help users explore geopolitical trends, monitor developments, and understand shifting global dynamics.",
-    tags: ["Product Development", "Agentic AI", "Information Architecture", "Data Visualization", "Workflow Automation"],
+      "Authored a research paper analyzing financial, ethical, and compliance challenges in the EU–DRC cobalt supply chain and global trade flows.",
+    tags: ["Research", "Geopolitics", "Compliance"],
   },
 ];
 
