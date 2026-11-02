@@ -265,7 +265,7 @@ function CV() {
           <div>
             <p className="font-medium text-foreground">International Baccalaureate</p>
             <p className="text-sm text-muted-foreground">École Nouvelle de la Suisse Romande</p>
-            <p className="text-sm text-muted-foreground">Lausanne, Switzerland · May 2018</p>
+            <p className="text-sm text-muted-foreground">Lausanne, Switzerland · 2017-2018</p>
           </div>
           <div>
             <p className="font-medium text-foreground">Model United Nations</p>
