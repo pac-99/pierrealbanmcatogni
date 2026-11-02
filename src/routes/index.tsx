@@ -263,13 +263,13 @@ function CV() {
       <Section title="Additional Information">
         <div className="grid sm:grid-cols-2 gap-10 text-[15px] text-foreground/80">
           <div>
-            <p className="font-medium text-foreground">Model United Nations</p>
-            <p className="text-sm text-muted-foreground">École des Roches International School · Normandie, France · 2015–2017</p>
-          </div>
-          <div>
             <p className="font-medium text-foreground">International Baccalaureate</p>
             <p className="text-sm text-muted-foreground">École Nouvelle de la Suisse Romande</p>
             <p className="text-sm text-muted-foreground">Lausanne, Switzerland · May 2018</p>
+          </div>
+          <div>
+            <p className="font-medium text-foreground">Model United Nations</p>
+            <p className="text-sm text-muted-foreground">École des Roches International School · Normandie, France · 2015–2017</p>
           </div>
           <div className="sm:col-span-2">
             <p className="text-sm font-medium tracking-tight mb-3 text-foreground">Interests</p>
