@@ -275,7 +275,7 @@ function CV() {
           <div className="sm:col-span-2">
             <p className="text-sm font-medium tracking-tight mb-3 text-foreground">Interests</p>
             <ul className="flex flex-wrap gap-x-2 gap-y-2">
-              {["Running", "Cooking", "Reading", "New Technologies", "Great Outdoors", "Geopolitics"].map((i) => (
+              {["Running", "Cooking", "Geopolitics", "New Technologies", "Great Outdoors"].map((i) => (
                 <li key={i} className="text-[13px] text-foreground/75 border border-border rounded-full px-3 py-1">
                   {i}
                 </li>
